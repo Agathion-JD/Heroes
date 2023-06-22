@@ -87,6 +87,10 @@ article p {
   height: 48px;
   margin-bottom: 25px;
 }
+.article-button:hover {
+  background-color: #001D2D;
+  width: 180px;
+}
 .contenedor-top2 {
   background-image: url("../imagenes/FondoWonder.png");
   background-size: cover;
@@ -121,6 +125,9 @@ article p {
 }
 .button-form img{
   width: 50px;
+}
+.button-form img:hover {
+  width: 80px;
 }
 footer {
   align-items: center;

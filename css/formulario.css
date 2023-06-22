@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 
 ::file-selector-button {
-    width: 223px;
-    height: 32px;
-    border-radius: 5px;
-    text-align: left;
-    border: none;
-    margin-top: 5px;
-    background-color: #CECECE;
+  width: 223px;
+  height: 32px;
+  border-radius: 5px;
+  text-align: left;
+  border: none;
+  margin-top: 5px;
+  background-color: #cecece;
 }
 * {
   margin: 0;
@@ -79,39 +79,40 @@ main {
   width: 340px;
 }
 .form-body input {
-    border-radius: 10px ;
-    height: 40px;
-    border: none;
+  border-radius: 10px;
+  height: 40px;
+  border: none;
 }
 #nombre {
-    padding: 0px 10px;
+  padding: 0px 10px;
 }
 #fecha {
-    padding: 0px 10px;
-}#especie {
-    padding: 0px 10px;
+  padding: 0px 10px;
+}
+#especie {
+  padding: 0px 10px;
 }
 .form-body select {
-    border-radius: 10px ;
-    height: 40px;
+  border-radius: 10px;
+  height: 40px;
 }
 #foto {
-    border-radius: 0;
-    color: #000000;
+  border-radius: 0;
+  color: #000000;
 }
 .form-body textarea {
-    border-radius: 15px;
-    resize: unset;
+  border-radius: 15px;
+  resize: unset;
   width: 340px;
 }
 #description {
-    padding: 10px;
+  padding: 10px;
 }
 fieldset {
   border: none;
 }
 fieldset legend {
-   font-size: 20px;
+  font-size: 20px;
 }
 fieldset label {
   display: flex;
@@ -120,14 +121,17 @@ fieldset label {
   width: 340px;
 }
 fieldset label input {
-    margin-right: 10px;
+  margin-right: 10px;
+}
+fieldset label input:hover {
+ width: 18px;
 }
 hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .submit-button {
-    background-color: #1CD1B0;
+  background-color: #1cd1b0;
   width: 350px;
   height: 50px;
   font-size: 35px;
@@ -136,6 +140,9 @@ hr {
   margin-top: 30px;
   margin-bottom: 15px;
   border-radius: 13px;
+}
+.submit-button:hover {
+  background-color: #02283d;
 }
 footer {
   align-items: center;
@@ -155,35 +162,34 @@ footer img {
 /*** Responsive */
 
 @media screen and (max-width: 650px) {
-    .form {
-        width: 90vh;
-    }
-    footer { 
-      font-size: 13px;
-    }
-    footer img {
-      height: 17px;
-    }
+  .form {
+    width: 90vh;
   }
-  @media screen and (max-width: 480px) {
-    header {
-        height: fit-content;
-      }
-      .header-p {
-        padding: 0 20px;
-      }
-      header h1  {
-        font-size: 20px;
-        padding: 0% 20px;
-      }
-      nav {
-        justify-content: start;
-      }
-      footer { 
-        font-size: 10px;
-      }
-      footer img {
-        height: 15px;
-      }
-    }
+  footer {
+    font-size: 13px;
   }
+  footer img {
+    height: 17px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header {
+    height: fit-content;
+  }
+  .header-p {
+    padding: 0 20px;
+  }
+  header h1 {
+    font-size: 20px;
+    padding: 0% 20px;
+  }
+  nav {
+    justify-content: start;
+  }
+  footer {
+    font-size: 10px;
+  }
+  footer img {
+    height: 15px;
+  }
+}
